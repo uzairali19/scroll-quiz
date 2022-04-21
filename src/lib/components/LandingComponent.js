@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 
 const LandingComponent = () => {
   return (
     <div className="flex flex-col justify-center items-center content-center h-screen">
       <div className="flex flex-col justify-center items-center w-[505px] text-center bg-white">
-        <img src="/cafe-building.svg" className="h-16 w-16" />
+        <Image src="/cafe-building.svg" className="h-16 w-16" alt="logo" />
         <h2 className="text-5xl m-5 font-sans subpixel-antialiased font-bold">
           Build Appeal Matcher
         </h2>
@@ -26,7 +27,7 @@ const LandingComponent = () => {
             >
               <path
                 fill="#B4A76C"
-                fill-rule="nonzero"
+                fillRule="nonzero"
                 d="M10.5 14L0 3.587 3.615 0 10.5 6.829 17.385 0 21 3.586z"
               ></path>
             </svg>
