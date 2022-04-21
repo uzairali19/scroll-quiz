@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: "12.x"
       - name: Setup ESLint
-        run: yarn 
+        run: yarn add --dev eslint
       - name: ESLint Report
         run: yarn lint
   stylelint:
