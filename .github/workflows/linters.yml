@@ -7,13 +7,17 @@ env:
 
 jobs:
   eslint:
+   name: Eslint
    runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v2
-    - name: Install modules
-      run: yarn
-    - name: Run ESLint
-      run: yarn lint
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+          yarn: true
+      - name: Run eslint
+        run: npm ci && npm run lint
   stylelint:
     name: Stylelint
     runs-on: ubuntu-18.04
