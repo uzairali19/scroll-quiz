@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: "12.x"
       - name: Setup ESLint
-        run: yarn add --dev eslint
+        run: yarn add --dev eslint next/core-web-vitals
       - name: ESLint Report
         run: yarn lint
   stylelint:
