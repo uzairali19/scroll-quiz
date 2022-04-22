@@ -131,7 +131,7 @@ const MainForm = ({ setSection, section }) => {
           >
             <path
               fill="#B4A76C"
-              fill-rule="nonzero"
+              fillRule="nonzero"
               d="M10.5 0L21 10.413 17.385 14 10.5 7.171 3.615 14 0 10.414z"
             ></path>
           </svg>

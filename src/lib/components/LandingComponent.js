@@ -40,7 +40,7 @@ const LandingComponent = ({ setSection }) => {
           </button>
         </div>
       </div>
-      <span className="border-r-[1px] border-slate-200 h-screen absolute -z-10 top-[700px] left-[50%]"></span>
+      <span className="border-r-[1px] border-slate-200 h-screen absolute -z-10 md:top-[500px] xl:top-[700px] left-[50%]"></span>
     </div>
   );
 };
