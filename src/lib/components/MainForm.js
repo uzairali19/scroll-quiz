@@ -60,7 +60,7 @@ const MainForm = ({ setSection, section, setIsSubmitted }) => {
         submit: false,
         values: {},
       })
-    }, 2000);
+    }, 8000);
     helpers.resetForm();
     setSection({
       i: 0,
