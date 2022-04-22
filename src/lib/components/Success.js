@@ -15,13 +15,13 @@ const Success = ({ isSubmitted }) => {
       </div>
       <div className="flex flex-col gap-2 text-center">
         <h3>
-          <span className="text-green-500">First Name:</span> {values.first}
+          <span className="text-green-500">First Answer:</span> {values.first}
         </h3>
         <h3>
-          <span className="text-green-500">Last Name:</span> {values.second}
+          <span className="text-green-500">Second Answer:</span> {values.second}
         </h3>
         <h3>
-          <span className="text-green-500">Email:</span> {values.third}
+          <span className="text-green-500">Third Answer:</span> {values.third}
         </h3>
       </div>
     </div>
