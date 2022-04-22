@@ -19,7 +19,7 @@ const NavComponent = () => {
           Share this quiz with your friends and compare your travel personality
           types
         </span>
-        <div className="flex justify-center items-center gap-10 text-xl mt-5">
+        <div className="flex justify-center items-center gap-10 text-xl mt-5 text-gray-500">
           <FontAwesomeIcon icon={faFacebookF} className="cursor-pointer" />
           <FontAwesomeIcon icon={faTwitter} className="cursor-pointer" />
         </div>
