@@ -60,7 +60,7 @@ const MainForm = ({ setSection, section, setIsSubmitted }) => {
         submit: false,
         values: {},
       })
-    }, 8000);
+    }, 2000);
     helpers.resetForm();
     setSection({
       i: 0,
@@ -123,7 +123,7 @@ const MainForm = ({ setSection, section, setIsSubmitted }) => {
             ))}
           </div>
           <button
-            className="border-[1px] rounded-full p-3 mt-5 absolute top-[10%] lg:left-[48.3%] xl:left-[48.7%] 2xl:left-[49%] z-10 bg-white"
+            className="border-[1px] rounded-full p-3 mt-5 absolute top-[10%] lg:left-[48.3%] xl:left-[48.7%] 2xl:left-[49.2%] z-10 bg-white"
             onClick={previousSectionHandler}
             type="button"
           >
@@ -142,7 +142,7 @@ const MainForm = ({ setSection, section, setIsSubmitted }) => {
             </svg>
           </button>
           <button
-            className="border-[1px] rounded-full p-3 mt-5 absolute bottom-[10%] lg:left-[48.3%] xl:left-[48.7%] 2xl:left-[49%] z-10 bg-white"
+            className="border-[1px] rounded-full p-3 mt-5 absolute bottom-[10%] lg:left-[48.3%] xl:left-[48.7%] 2xl:left-[49.2%] z-10 bg-white"
             type="submit"
           >
             <svg
@@ -160,7 +160,7 @@ const MainForm = ({ setSection, section, setIsSubmitted }) => {
           </button>
         </Form>
       </Formik>
-      <span className="border-r-[1px] border-slate-200 h-screen absolute -z-10 left-[50%] hover:cursor-pointer"></span>
+      <span className="border-r-[1px] border-slate-200 h-screen absolute -z-10 left-[50%]"></span>
       <Footer />
     </div>
   );

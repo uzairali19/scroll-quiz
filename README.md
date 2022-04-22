@@ -1,6 +1,9 @@
 # Build Appeal Multi Form
 
 > This is a multi-form Nextjs application. It is a simple way to build a multi-form with Nextjs. The form uses tailwindCSS for styling and Formik for handling form fields and submisson. In this example, the form is a simple radio button form. However if the form is more complex, it can be built with adding formik field values. Then it would make sense to use validation for the form as well. Yup library would be a great option to add validation. 
+## Live Demo
+
+[Demo link](https://build-appeal-kappa.vercel.app/)
 ## Landing Page
 ![image](./screenshot.png)
 
